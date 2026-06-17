@@ -38,7 +38,7 @@ const App = () => {
         </div>
 
         <img
-          src="/hero.png"
+          src="."
           alt="Dieudonne"
           className="hero-image"
         />
