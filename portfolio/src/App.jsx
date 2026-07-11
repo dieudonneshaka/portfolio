@@ -24,13 +24,14 @@ const Work = () => {
         AVAILABLE FOR WORK
       </button>
 
-      <h1>Designing the Extraordinary</h1>
+      <h1 className="h1">Designing the Extraordinary</h1>
       
 
-      <p>
+      <p className="p">
         I'm Ngororano Dieudonne, a Software Engineering student
         passionate about building modern web and mobile applications.
-      </p>
+        Ngororano dieudonne
+      </p> 
 
       <div className="work-buttons">
         <button className="button-1">
@@ -41,6 +42,15 @@ const Work = () => {
           Get in Touch
         </button>
       </div>
+    </section>
+  )
+}
+
+const Pic = () => {
+  return(
+    <section id="hero" className="hero">
+      
+
     </section>
   )
 }

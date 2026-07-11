@@ -65,5 +65,35 @@ body {
   color: gray;
   width: 200px;
   height: 25px;
-  
+  margin-left: 20px;
+  border-radius: 50px;
 }
+.h1{
+  margin-left: 20px;
+  margin: 20px;
+}
+.p{
+  margin-left: 20px;
+  margin: 20px;
+}
+
+.button-1{
+  margin: 20px;
+  border-radius: 50px;
+  height: 40px;
+  width: 170px;
+  background-color: white;
+  
+
+}
+
+.button-2{
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 120px;
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+
+
