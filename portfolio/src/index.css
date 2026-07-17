@@ -19,6 +19,7 @@ body {
   color: #fff;
   
   
+  
 
   
 }
@@ -67,25 +68,25 @@ body {
   color: gray;
   width: 200px;
   height: 25px;
-  margin-left: 20px;
+  margin-left: 100px;
   border-radius: 50px;
 }
 .h1{
   margin-left: 20px;
-  margin: 20px;
+  margin: 100px;
   line-height: 1.1;
   font-weight: 700;
 }
 .p{
-  margin-left: 20px;
-  margin: 20px;
+  margin-left: 100px;
+  margin: 100px;
   color: #a3a3a3;
   line-height: 1.6;
   font-size: 1.1rem;
 }
 
 .button-1{
-  margin: 20px;
+  margin: 100px;
   border-radius: 50px;
   border: none;
   height: 40px;
@@ -96,11 +97,25 @@ body {
 }
 
 .button-2{
-  margin-left: 20px;
+  margin-left: 100px;
   border-radius: 50px;
   width: 120px;
   height: 40px;
   background-color: black;
   color: white;
 }
+
+.hero{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  margin-bottom: anchor-size;
+  padding-right: 5rem;
+  box-sizing: border-box;
+}
+
+
+
+
+
 
