@@ -1,3 +1,5 @@
+
+
 const Navbar = () => {
   return (
     <nav className="nav">
@@ -21,17 +23,17 @@ const Work = () => {
   return (
     <section id="work" className="work">
       <button className="button">
-        AVAILABLE FOR WORK
+        <span className="dieu">.</span> AVAIBLE FOR WORK
       </button>
 
-      <h1 className="h1">Designing the Extraordinary</h1>
-      
+      <h1 className="h1">Designing the <br/> Extraordinary</h1>
 
       <p className="p">
-        I'm Ngororano Dieudonne, a Software Engineering student
-        passionate about building modern web and mobile applications.
-        Ngororano dieudonne
+        I'm  Ngororano Dieudonne, a Software Engineering student <br/>
+        at Metropolia building code, products, and digital <br/>
+        experiences with precision and a touch of light.
       </p> 
+      
 
       <div className="work-buttons">
         <button className="button-1">
@@ -41,27 +43,43 @@ const Work = () => {
         <button className="button-2">
           Get in Touch
         </button>
+
+        
       </div>
     </section>
   )
 }
 
 const Pic = () => {
-  return(
+  return (
     <section id="hero" className="hero">
-      
-
+      <div className="hero-card">
+        <img 
+          src="/path-to-your-image.jpg" 
+          alt="Portrait of woman" 
+          className="hero-img"
+        />
+        <div className="hero-card-overlay"></div>
+      </div>
     </section>
   )
 }
+
+
+
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Work />
+      <Pic />
+      
+      
     </>
   )
 }
 
 export default App
+
+

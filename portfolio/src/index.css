@@ -1,3 +1,5 @@
+
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
    background: #0a0a0a;
@@ -71,15 +73,21 @@ body {
 .h1{
   margin-left: 20px;
   margin: 20px;
+  line-height: 1.1;
+  font-weight: 700;
 }
 .p{
   margin-left: 20px;
   margin: 20px;
+  color: #a3a3a3;
+  line-height: 1.6;
+  font-size: 1.1rem;
 }
 
 .button-1{
   margin: 20px;
   border-radius: 50px;
+  border: none;
   height: 40px;
   width: 170px;
   background-color: white;
@@ -95,5 +103,4 @@ body {
   background-color: black;
   color: white;
 }
-
 
