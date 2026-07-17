@@ -55,7 +55,7 @@ const Pic = () => {
     <section id="hero" className="hero">
       <div className="hero-card">
         <img 
-          src="/path-to-your-image.jpg" 
+          src="favicon.svg" 
           alt="Portrait of woman" 
           className="hero-img"
         />
