@@ -1,4 +1,6 @@
 
+import React from 'react';
+import Projects from './Projects';
 
 const Navbar = () => {
   return (
@@ -55,7 +57,7 @@ const Pic = () => {
     <section id="hero" className="hero">
       <div className="hero-card">
         <img 
-          src="favicon.svg" 
+          src="3e6d367322bd5ef511216c3576dfa4e0.png" 
           alt="Portrait of woman" 
           className="hero-img"
         />
@@ -67,13 +69,14 @@ const Pic = () => {
 
 
 
-
 const App = () => {
   return (
     <>
       <Navbar />
       <Work />
       <Pic />
+      <Projects /> 
+
       
       
     </>
