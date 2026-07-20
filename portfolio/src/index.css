@@ -147,7 +147,20 @@ body {
 }
 
 
+.jay {
+  margin-left: 100px;
+}
+.left{
+  margin-left: 80px;
+  padding: 20px;
+}
 
+.arrow-right{
+  display: flex;
+  justify-content: end;
+  padding-right: 5rem;
+  color: gray;
+}
 
 
 

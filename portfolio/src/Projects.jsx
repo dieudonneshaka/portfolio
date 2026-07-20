@@ -1,61 +1,54 @@
 import React from 'react';
-import Projects from './Projects'; // Make sure the path matches where the file sits!
+import './Projects.css';
 
-const Navbar = () => {
+const projectsData = [
+  {
+    id: 1,
+    category: "PRODUCER DESIGN",
+    tittle: "LUMEN  ANALYTICS",
+    discraption: "A dark-mode analytics dashboard turning dense data into calm, legible insight",
+    imageUrl: "favicon.svg"
+
+  },
+  {
+    id: 2,
+    category: "BAND IDENTINTY",
+    tittle: " MAISON NOIR ",
+    discraption: "Foil-stamped identity system for a boutique fragrance house rooted in restraint",
+    imageUrl: "3e6d367322bd5ef511216c3576dfa4e0.png"
+  },
+  {
+    id: 3,
+    category: "WEB EXPERIANCE",
+    tittle: "VOLAIR STORE",
+    discraption: "an immersive e-commerce flagship balancing auditorial storytelling with conversion",
+    imageUrl: "3e6d367322bd5ef511216c3576dfa4e0.png"
+  },
+  {
+    id: 4,
+    category: "MOBILE APP",
+    tittle : "AURUM Finance",
+    discraption: "A weather app that makes every interaction feel considired  private premium",
+    imageUrl: "3e6d367322bd5ef511216c3576dfa4e0.png"
+
+  }
+];
+
+
+const Projects = () => {
   return (
-    <nav className="nav">
-      <div className="logo-nav">ND.</div>
-      <div className="nav-wrap">
-        <ul className="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+    <div className="projects">
+      <div className="project">  
+      <p className='jay'>SELECTED PROJECTS</p>  
+      <h2 className='left'>FEATURED WORK</h2>
+
       </div>
-      <button className="nav-active">Let's Talk</button>
-    </nav>
-  )
-}
+      <a href="#all" className="right"> All projects</a>
+    </div>
+   
+  );
+};
 
-const Work = () => {
-  return (
-    <section id="work" className="work">
-      <button className="button"><span className="dieu">.</span> AVAILABLE FOR WORK</button>
-      <h1 className="h1">Designing the <br/> Extraordinary</h1>
-      <p className="p">
-        I'm Ngororano Dieudonne, a Software Engineering student <br/>
-        at Metropolia building code, products, and digital <br/>
-        experiences with precision and a touch of light.
-      </p> 
-      <div className="work-buttons">
-        <button className="button-1">View Selected Work</button>
-        <button className="button-2">Get in Touch</button>
-      </div>
-    </section>
-  )
-}
 
-const Pic = () => {
-  return (
-    <section id="hero" className="hero">
-      <div className="hero-card">
-        <img src="3e6d367322bd5ef511216c3576dfa4e0.png" alt="Portrait" className="hero-img" />
-        <div className="hero-card-overlay"></div>
-      </div>
-    </section>
-  )
-}
 
-const App = () => {
-  return (
-    <>
-      <Navbar />
-      <Work />
-      <Pic />
-      <Projects />
-    </>
-  )
-}
-
-export default App;
+export default Projects;
